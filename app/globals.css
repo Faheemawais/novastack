@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #10131f;
+  color: #eef1fa;
+  font-family: "Figtree", system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #5b8cff;
+  color: #10131f;
+}
+
+:focus-visible {
+  outline: 2px solid #5b8cff;
+  outline-offset: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #10131f;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3048;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
