@@ -1,9 +1,9 @@
 // ONE place to edit the brand, links and copy for this site.
 export const site = {
   name: "Novastack",
-  fiverrUrl: "https://www.fiverr.com/s/kXX8Nyo",
-  email: "faheemawais482@gmail.com",
-  formspreeId: "myekbgbe", // replace with your Formspree form ID
+  fiverrUrl: "https://www.fiverr.com/s/L33yvX4",
+  email: "nova.techstack@gmail.com",
+  formspreeId: "mgaopeoa", // replace with your Formspree form ID
 
   headline: ["Mobile and AI apps,", "built and shipped."],
   description:
