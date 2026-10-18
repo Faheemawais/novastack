@@ -104,6 +104,32 @@ export const projects: Project[] = [
     price: "$1000–$1800",
     platform: "iOS & Android",
   },
+    {
+    id: 10,
+    title: "Amora",
+    subtitle: "Meet people who actually fit.",
+    description:
+      "An AI-powered dating app with an AI matchmaker that learns your taste, a compatibility quiz, smart icebreakers, an AI date planner, video calls and built-in safety tools. A 28-screen case study covering onboarding, profile setup, discovery, matches, chat, filters, premium plans and a safety center.",
+    tags: ["Flutter", "Firebase", "AI", "Video Calls"],
+    image: "/projects/amora.png",
+    date: "Oct 2026",
+    duration: "2–3 Months",
+    price: "$2000–$3500",
+    platform: "iOS & Android",
+  },
+  {
+    id: 11,
+    title: "EduNexus",
+    subtitle: "AI-Powered Learning Assistant.",
+    description:
+      "A learning platform with separate student and teacher portals. Students get an AI study chat, quizzes, summaries, flashcards, a study planner, assignments and study groups. Teachers upload weekly materials, create assignments with AI help limits and track subjects. A 32-screen case study built as a final year project.",
+    tags: ["Flutter", "Firebase", "AI", "EdTech"],
+    image: "/projects/edunexus.png",
+    date: "Feb 2026",
+    duration: "2–4 Months",
+    price: "$2000–$3500",
+    platform: "iOS & Android",
+  },
 ];
 // ✅ To add a new project in future:
 // Just copy one object above, change the values,
